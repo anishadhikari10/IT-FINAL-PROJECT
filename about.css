@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #222;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 10px;
+  }
+  
+  .logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .navlist li a:hover,
+  .navlist li a.active {
+    color: orange;
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-icons input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .nav-icons i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-icons i:hover {
+    color: orange;
+  }
+  
+  .about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .about-section h2 {
+    font-size: 28px;
+    color: #222;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-section ul li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: orange;
+  }
+  
