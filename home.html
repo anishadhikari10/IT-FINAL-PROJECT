@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Anish Store</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
 
 <header>
     <nav class="navbar">
-        <div class="logo">Anish Store</div>
+        <div class="logo">
+            <img src="logo.png" alt="Anish Store Logo">
+            <!-- <span>Anish Store</span> -->   
+        </div>
         <ul class="navlist">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="products.html">Products</a></li>
@@ -28,44 +34,47 @@
 </header>
 
 <section class="hero">
-    <div class="hero-text">
-        <h1>Welcome to Anish Store</h1>
-        <p>Your one-stop destination for all the latest gadgets and electronics.</p>
-        <a href="products.html" class="btn">Shop Now</a>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Discover the Future</h1>
+            <p>Explore the latest gadgets tailored to elevate your tech experience — smart, sleek, and powerful.</p>
+            <a href="products.html" class="btn">Explore Products</a>
+        </div>
+        <div class="hero-image">
+            <img src="hero.png" alt="Tech Showcase">
+        </div>
     </div>
 </section>
 
 <section class="products-section">
-    <h2>Featured Products</h2>
+    <h2><i class="fas fa-star"></i> Featured Products</h2>
     <div class="products">
         <div class="product-card">
-            <a href="products.html">
-                <img src="keyboard.png" alt="Gaming Keyboard">
-                <h3>RAPOO VPRO V52 Backlit Gaming Keyboard</h3>
-                <p>NPR 8,000</p>
-                <button class="buy-btn">Buy Now</button>
-            </a>
+            <img src="keyboard.png" alt="Gaming Keyboard">
+            <h3>RAPOO VPRO V52</h3>
+            <p class="tagline">Backlit Gaming Keyboard</p>
+            <p class="price">NPR 8,000</p>
+            <a href="products.html" class="buy-btn">Buy Now</a>
         </div>
 
         <div class="product-card">
-            <a href="products.html">
-                <img src="headphone.png" alt="Gaming Headset">
-                <h3>Logitech G335 Lightweight Wired Gaming Headset</h3>
-                <p>NPR 13,200</p>
-                <button class="buy-btn">Buy Now</button>
-            </a>
+            <img src="headphone.png" alt="Gaming Headset">
+            <h3>Logitech G335</h3>
+            <p class="tagline">Wired Lightweight Gaming Headset</p>
+            <p class="price">NPR 13,200</p>
+            <a href="products.html" class="buy-btn">Buy Now</a>
         </div>
 
         <div class="product-card">
-            <a href="products.html">
-                <img src="ps5.png" alt="Sony PlayStation 5">
-                <h3>Sony PlayStation 5</h3>
-                <p>NPR 90,000</p>
-                <button class="buy-btn">Buy Now</button>
-            </a>
+            <img src="ps5.png" alt="Sony PlayStation 5">
+            <h3>Sony PlayStation 5</h3>
+            <p class="tagline">Next-Gen Gaming Console</p>
+            <p class="price">NPR 90,000</p>
+            <a href="products.html" class="buy-btn">Buy Now</a>
         </div>
     </div>
 </section>
+
 
 <footer>
     <div class="footer-container">
