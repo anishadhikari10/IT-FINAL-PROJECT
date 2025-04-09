@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Anish Store</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Anish Store Logo">
+            <!-- <span>Anish Store</span> -->
+        </div>
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="offers.html">Offers</a></li>
+        </ul>
+        <div class="nav-icons">
+            <input type="text" placeholder="Search for gadgets">
+            <i class="fa fa-search"></i>
+            <i class="fa fa-user"></i>
+        </div>
+    </nav>
+</header>
+
+<section class="contact-section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us, and we'll get back to you as soon as possible.</p>
+
+        <div class="contact-content">
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Contact Details</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+                <p><i class="fas fa-phone"></i> +977 9876543210</p>
+                <p><i class="fas fa-envelope"></i> support@anishstore.com</p>
+                <p><i class="fas fa-clock"></i> Mon - Fri: 9 AM - 7 PM</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <p>© 2024 Anish Store. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevents the default form submission behavior
+        console.log("Your form is submitted successfully!");
+        alert("Thank you! Your message has been submitted.");
+        this.reset(); // Clears the form after submission
+    });
+</script>
+
+</body>
+</html>
