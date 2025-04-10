@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #222;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 10px;
+  }
+  
+  .logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .navlist li a:hover,
+  .navlist .active {
+    color: orange;
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-icons input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .nav-icons i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-icons i:hover {
+    color: orange;
+  }
+  
+  /* Offer Section */
+  .offer-banner {
+    text-align: center;
+    font-size: 24px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .offer-banner marquee {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .offer-text {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .offer-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .offer-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Footer */
+  .footer-container {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+  }
+  
+  .footer-container .social-icons a {
+    color: orange;
+    margin: 0 10px;
+    font-size: 22px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-container .social-icons a:hover {
+    color: white;
+  }
+  
