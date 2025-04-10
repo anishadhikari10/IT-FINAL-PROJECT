@@ -15,9 +15,16 @@ body {
   }
   
   .logo {
-    font-size: 26px;
-    font-weight: bold;
-    color: orange;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 10px;
+  }
+  
+  .logo img {
+    height: 40px;
+    width: auto;
   }
   
   .navlist {
@@ -34,10 +41,11 @@ body {
     font-size: 16px;
   }
   
-  .navlist li a:hover {
-    color: orange;
-  }
   
+.navlist li a:hover,
+.navlist .active {
+  color: orange;
+}
   .nav-icons {
     display: flex;
     align-items: center;
@@ -120,17 +128,29 @@ body {
     border-radius: 5px;
   }
   
-  .footer-content {
-    text-align: center;
-    padding: 20px;
+  footer {
     background: #222;
     color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
   }
   
   .social-icons a {
     color: white;
-    margin: 0 10px;
-    text-decoration: none;
     font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: orange;
   }
   
